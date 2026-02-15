@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean's Basket</title>
+  </head>
+  <body>
+    <header>
+      <h1>OceanFinds Restaurant</h1>
+      <section id="aboutus">
+        <h2>About us.</h2>
+        <p>
+          Welcome to the officiall page of Ocien's Basket.
+          <br />
+          We specilize in seafood only freshsly caught from the Indian Ocean.
+          Located around the Nyali coast, Oceans Basket is dedicated to
+          delivering fresh and high-quality seafood in a relaxing traditional
+          setting.
+        </p>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a href="#Hero">Home Page</a></li>
+          <li><a href="#About">About us</a></li>
+          <li><a href="#Menu">Our Menu</a></li>
+          <li><a href="#Contacts">Contact and Reservations</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h2>Fresh from the ocean to your Plate In No Time At All!</h2>
+        <p>
+          All are welcome to try out our special seafood dishes prepared daily
+          using locally sourced ingredients with authentic coastal flavours.
+        </p>
+
+        <img
+          src="images/download.jpeg"
+          alt="Shrimp Tempura With our special sauce."
+        />
+      </section>
+      <br />
+
+      <section id="Menu">
+        <h2>Our Seafood Dishes</h2>
+        <article>
+          <h3>Prawn Balchao</h3>
+          <p>
+            A spicy, tangy, and vinegar-based prawn dish with Portuguese
+            influence.
+          </p>
+        </article>
+        <h3>Butter Garlic Shrimp Tempura</h3>
+        <p>
+          Succulent shrimp fried in avovado oil, then sautéed in rich garlic
+          butter sauce.
+        </p>
+
+        <article>
+          <h3>Tondoori Fish and Lobster</h3>
+          <p>
+            Fresh seafood marinated in yogurt and spices, grilled in a tandoor,
+            particularly popular in the Andaman & Nicobar Islands.
+          </p>
+        </article>
+        <h3>Swahili Coconut Fish Soup</h3>
+        <p>A rich, spiced and aromatic soup.</p>
+
+        <article>
+          <h3>Seafood Platter</h3>
+          <p>A generous mix of crab, shrimp, calamari, and grilled fish.</p>
+        </article>
+      </section>
+      <br />
+    </main>
+    <br />
+    <section id="#Contacts">
+      <form action="/submint-reservation" method="post">
+        <caption>
+          Make a reservation.
+        </caption>
+        <br />
+        <label for="Full-name">Enter Your Full Name:</label>
+        <input
+          type="text"
+          id="Full-name"
+          name="Full-name"
+          placeholder="eg., John Doe."
+        />
+        <br /><br />
+        <label for="email">Enter Email Adress:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="e.g, johndoe@gamail.com"
+        />
+        <br /><br />
+        <label for="phone">Enter Phone Number:</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          required
+          placeholder="+254 7** *** ***"
+        />
+        <br /><br />
+        <label for="date">Set Reservation Date</label>
+        <input type="date" name="date" id="date" required />
+        <br /><br />
+        <label for="time">Set Reservation Time</label>
+        <input type="time" id="time" name="time" required />
+        <br /><br />
+        <label for="guests">Number of Guests</label>
+        <input type="number" id="guests" name="guests" required />
+        <br>
+        <button type="submit">Reserve.</button>
+      </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ocean's Basket.  All Rights Served.</p>
+      <nav>
+        <h3>Follow us on:</h3>
+        <a href="instagraam.com">Instagram</a>
+        <a href="twitter.com">Twitter</a>
+        <a href="facebook.com">facebook</a>
+      </nav>
+    </footer>
+  </body>
+</html>
